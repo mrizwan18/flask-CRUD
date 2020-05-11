@@ -1,1 +1,1 @@
-web: gunicorn flask-crud-webapp:app
+web: gunicorn app:app
