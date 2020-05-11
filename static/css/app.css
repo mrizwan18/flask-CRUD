@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    height: 100vh;
+}
+
+.body-container {
+    margin-top: 20px;
+}
+
+.top-bar {
+    margin: 3% 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-active {
+    text-align: center;
+    padding: 5px 11px;
+    font-weight: bolder;
+    color: #28A745;
+    background: transparent;
+    border: 2px solid #28A745;
+    border-radius: 3px;
+}
